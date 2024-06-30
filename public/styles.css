@@ -1,0 +1,42 @@
+body{
+    background-image: url('bgweb2.jpg');
+    
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    background-image: url('bgweb2.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #fbf6f6; /* Warna teks abu-abu gelap */
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu a {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #1dfa45; /* Warna latar belakang putih */
+    color: #333; /* Warna teks abu-abu gelap */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #a5a1a1; /* Warna latar belakang abu-abu muda saat dihover */
+}
